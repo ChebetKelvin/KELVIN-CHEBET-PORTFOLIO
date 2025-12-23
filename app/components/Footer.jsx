@@ -25,7 +25,7 @@ export default function Footer() {
     {
       platform: "LinkedIn",
       icon: <FiLinkedin />,
-      url: "www.linkedin.com/in/kelvin-chebet-tech",
+      url: "https://www.linkedin.com/in/kelvin-chebet-tech",
       color: "hover:text-blue-400",
       label: "LinkedIn Profile",
     },
@@ -170,14 +170,14 @@ export default function Footer() {
                       className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors"
                     >
                       <FiMail className="w-5 h-5 text-blue-400" />
-                      <span className="text-sm">kelvinchebet56@gmail.com</span>
+                      <span className="text-sm">kelvinchebet47@gmail.com</span>
                     </a>
                     <a
                       href="tel:+254702917183"
                       className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors"
                     >
                       <FaWhatsapp className="w-5 h-5 text-green-400" />
-                      <span className="text-sm">+254 702 917 183</span>
+                      <span className="text-sm">+254 790 649 106</span>
                     </a>
                   </div>
                 </div>

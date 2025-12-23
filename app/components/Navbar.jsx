@@ -22,7 +22,7 @@ export default function Navbar() {
   const socialLinks = [
     {
       icon: <FaLinkedinIn />,
-      href: "www.linkedin.com/in/kelvin-chebet-tech",
+      href: "https://www.linkedin.com/in/kelvin-chebet-tech",
       label: "LinkedIn",
     },
     {

@@ -79,7 +79,7 @@ export default function Contact() {
       platform: "LinkedIn",
       icon: <FiLinkedin />,
       username: "Kelvin Chebet",
-      url: "www.linkedin.com/in/kelvin-chebet-tech",
+      url: "https://www.linkedin.com/in/kelvin-chebet-tech",
       color: "from-blue-600 to-blue-700",
       description: "Connect professionally",
     },
