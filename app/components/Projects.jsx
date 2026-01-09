@@ -37,10 +37,10 @@ import {
 export default function Projects() {
   const [activeFilter, setActiveFilter] = useState("all");
   const [selectedProject, setSelectedProject] = useState(null);
-  const [viewMode, setViewMode] = useState("grid"); // "grid" or "list"
+  const [viewMode, setViewMode] = useState("grid");
 
   const projectCategories = [
-    { id: "all", label: "All Projects", count: 8 },
+    { id: "all", label: "All Projects", count: 11 },
     { id: "fullstack", label: "Full-Stack", count: 6 },
     { id: "ml-ai", label: "ML/AI", count: 2 },
     { id: "cloud", label: "Cloud/DevOps", count: 4 },
@@ -197,7 +197,7 @@ export default function Projects() {
     },
     {
       id: 4,
-      title: "Freshly Zeta E-Commerce",
+      title: "Freshly E-Commerce",
       category: ["fullstack"],
       description:
         "E-commerce platform for fresh products with shopping cart and payment integration.",
@@ -246,7 +246,7 @@ export default function Projects() {
     },
     {
       id: 5,
-      title: "Final Project - Liard Phi",
+      title: "Final Project - Weed Shop Application",
       category: ["fullstack"],
       description:
         "Final year capstone project demonstrating full-stack development skills.",
@@ -344,7 +344,7 @@ export default function Projects() {
     },
     {
       id: 7,
-      title: "MongoDB Todo Application",
+      title: "Todo Application",
       category: ["fullstack"],
       description:
         "A classic Todo app with persistent data using MongoDB and Node.js backend.",
@@ -393,7 +393,7 @@ export default function Projects() {
     },
     {
       id: 8,
-      title: "Pharmacy Inventory Optimizer",
+      title: "Pharmacy Inventory Optimizer Using ML and Cloud Computing ",
       category: ["research", "ml-ai", "cloud"],
       description:
         "A cloud-based machine learning system for optimizing pharmacy inventory management using AWS and XGBoost algorithm.",
@@ -440,6 +440,108 @@ export default function Projects() {
       imageColor: "from-purple-600 to-pink-600",
       stars: 0,
       complexity: "Advanced",
+    },
+    {
+      id: 9,
+      title: "Trailblazer Academy Website",
+      category: ["frontend"],
+      description:
+        "A modern school website focused on visibility, admissions, and digital presence.",
+      longDescription:
+        "Trailblazer Academy is a responsive school website designed to improve online visibility and parent engagement. The platform presents academic programs, admissions information, school values, and contact details in a clear and accessible layout optimized for mobile users.",
+      technologies: [
+        {
+          name: "React",
+          icon: <FaReact />,
+          color: "bg-linear-to-br from-cyan-500 to-blue-500",
+        },
+        {
+          name: "Tailwind CSS",
+          icon: <SiTailwindcss />,
+          color: "bg-linear-to-br from-sky-400 to-cyan-500",
+        },
+      ],
+      features: [
+        "Admissions and programs overview",
+        "Mobile-first responsive design",
+        "Clear call-to-action sections",
+        "Clean and accessible UI",
+      ],
+      github: "https://github.com/kelvinchebet/trailblazer-academy",
+      live: "https://trailblazers-academy.vercel.app",
+      status: "completed",
+      year: "2025",
+      imageColor: "from-indigo-600 to-blue-600",
+      stars: 9,
+      complexity: "Beginner–Intermediate",
+    },
+    {
+      id: 10,
+      title: "Maryanne Academy School Website",
+      category: ["frontend"],
+      description:
+        "A school website designed to improve communication and online presence.",
+      longDescription:
+        "A modern, responsive school website for Maryanne Academy in Meru. The site provides school information, admissions details, class structure, announcements, and branding aligned with the school's identity.",
+      technologies: [
+        {
+          name: "React",
+          icon: <FaReact />,
+          color: "bg-linear-to-br from-cyan-500 to-blue-500",
+        },
+        {
+          name: "Tailwind CSS",
+          icon: <SiTailwindcss />,
+          color: "bg-linear-to-br from-sky-400 to-cyan-500",
+        },
+      ],
+      features: [
+        "Admissions information",
+        "School class structure",
+        "Announcements section",
+        "Accessible and mobile-friendly UI",
+      ],
+      github: "https://github.com/kelvinchebet/maryanne-academy",
+      live: "https://academymaryanne.com",
+      status: "completed",
+      year: "2025",
+      imageColor: "from-red-600 to-green-600",
+      stars: 10,
+      complexity: "Beginner",
+    },
+    {
+      id: 11,
+      title: "Brian Digital CV Portfolio",
+      category: ["frontend"],
+      description:
+        "A personal portfolio website showcasing skills, projects, and contact information.",
+      longDescription:
+        "A clean and modern personal portfolio website built for Brian to showcase his skills, projects, and professional background. The site focuses on clear presentation, smooth navigation, and responsive design to create a strong online personal brand.",
+      technologies: [
+        {
+          name: "React",
+          icon: <FaReact />,
+          color: "bg-linear-to-br from-cyan-500 to-blue-500",
+        },
+        {
+          name: "Tailwind CSS",
+          icon: <SiTailwindcss />,
+          color: "bg-linear-to-br from-sky-400 to-cyan-500",
+        },
+      ],
+      features: [
+        "Projects showcase section",
+        "Skills and experience overview",
+        "Contact and social links",
+        "Responsive and modern UI",
+      ],
+      github: "https://github.com/kelvinchebet/brian-portfolio",
+      live: "https://brian-digital-cv.vercel.app",
+      status: "completed",
+      year: "2025",
+      imageColor: "from-slate-700 to-gray-900",
+      stars: 7,
+      complexity: "Beginner",
     },
   ];
 
